@@ -6,11 +6,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectTypeGuids>{416D63FD-0477-49AA-A954-A7C5B95A9B51};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{CD94163E-7A26-4341-B961-73AD0D6BFE70}</ProjectGuid>
+    <ProjectGuid>{876C867C-FFE0-40BB-A657-239E904621ED}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SpaUserControl.Domain</RootNamespace>
-    <AssemblyName>SpaUserControl.Domain</AssemblyName>
+    <RootNamespace>SpaUserControl.Infraestructure</RootNamespace>
+    <AssemblyName>SpaUserControl.Infraestructure</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -50,19 +50,30 @@
     <Reference Include="Microsoft.Analytics.Types" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contracts\Repositories\IUserRepository.cs" />
-    <Compile Include="Models\User.cs" />
+    <Compile Include="Data\AppDataContext.cs" />
+    <Compile Include="Data\Map\UserMap.cs" />
+    <Compile Include="Migrations\201907190102542_CriarSpaDb.cs" />
+    <Compile Include="Migrations\201907190102542_CriarSpaDb.Designer.cs">
+      <DependentUpon>201907190102542_CriarSpaDb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SpaUserControl.Common\SpaUserControl.Common.csproj">
-      <Project>{48c1a64f-4ea4-439a-8b43-b9be4a4b3bd6}</Project>
-      <Name>SpaUserControl.Common</Name>
-    </ProjectReference>
+    <Compile Include="Repositories\UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SpaUserControl.Domain\SpaUserControl.Domain.csproj">
+      <Project>{cd94163e-7a26-4341-b961-73ad0d6bfe70}</Project>
+      <Name>SpaUserControl.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201907190102542_CriarSpaDb.resx">
+      <DependentUpon>201907190102542_CriarSpaDb.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
