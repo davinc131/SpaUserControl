@@ -117,8 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DuplicateEmail" xml:space="preserve">
+    <value>E-mail already registered.</value>
+  </data>
   <data name="InvalidCharacterPassword" xml:space="preserve">
     <value>Amount of invalid characters. Minimum of 6 and maximum of 20.</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>invalid password</value>
   </data>
   <data name="InvalidEmail" xml:space="preserve">
     <value>Email is invalid.</value>
@@ -134,5 +140,8 @@
   </data>
   <data name="PasswordDoNotMatch" xml:space="preserve">
     <value>Parameters are not the same.</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>User not found.</value>
   </data>
 </root>

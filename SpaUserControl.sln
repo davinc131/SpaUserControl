@@ -9,11 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Common", "Sp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Infraestructure", "SpaUserControl.Infraestructure\SpaUserControl.Infraestructure.csproj", "{876C867C-FFE0-40BB-A657-239E904621ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSpaApp", "ConsoleSpaApp\ConsoleSpaApp.csproj", "{ABEC32A4-C25F-47AF-BCC9-F52ECEEA0E77}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Startup", "SpaUserControl.Startup\SpaUserControl.Startup.csproj", "{1C1DB946-05BF-45FA-B60F-BA8F57296BA9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Business", "SpaUserControl.Business\SpaUserControl.Business.csproj", "{D6BE5427-38F5-448B-AA62-BB882710FEA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Api", "SpaUserControl.Api\SpaUserControl.Api.csproj", "{958D72F2-D6F4-4164-87AD-96F8E6B469BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +33,6 @@ Global
 		{876C867C-FFE0-40BB-A657-239E904621ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{876C867C-FFE0-40BB-A657-239E904621ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{876C867C-FFE0-40BB-A657-239E904621ED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ABEC32A4-C25F-47AF-BCC9-F52ECEEA0E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABEC32A4-C25F-47AF-BCC9-F52ECEEA0E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABEC32A4-C25F-47AF-BCC9-F52ECEEA0E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABEC32A4-C25F-47AF-BCC9-F52ECEEA0E77}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1C1DB946-05BF-45FA-B60F-BA8F57296BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1C1DB946-05BF-45FA-B60F-BA8F57296BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C1DB946-05BF-45FA-B60F-BA8F57296BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{D6BE5427-38F5-448B-AA62-BB882710FEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6BE5427-38F5-448B-AA62-BB882710FEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6BE5427-38F5-448B-AA62-BB882710FEA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958D72F2-D6F4-4164-87AD-96F8E6B469BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958D72F2-D6F4-4164-87AD-96F8E6B469BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958D72F2-D6F4-4164-87AD-96F8E6B469BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958D72F2-D6F4-4164-87AD-96F8E6B469BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

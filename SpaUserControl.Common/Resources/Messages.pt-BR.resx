@@ -117,31 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DuplicateEmail" xml:space="preserve">
-    <value>Email já cadastrado.</value>
+  <data name="PasswordSuccessfulyChanges" xml:space="preserve">
+    <value>Mudanças com sucesso na senha</value>
   </data>
-  <data name="InvalidCharacterPassword" xml:space="preserve">
-    <value>Quantidade de caracteres inválida. Deve estar entre 6 e 20.</value>
-  </data>
-  <data name="InvalidCredentials" xml:space="preserve">
-    <value>Senha inválida.</value>
-  </data>
-  <data name="InvalidEmail" xml:space="preserve">
-    <value>Email inválido.</value>
-  </data>
-  <data name="InvalidPassword" xml:space="preserve">
-    <value>Senha inválida</value>
-  </data>
-  <data name="InvalidUserName" xml:space="preserve">
-    <value>Nome inválido.</value>
-  </data>
-  <data name="PasswordConfirmation" xml:space="preserve">
-    <value>A confirmação da senha falhou.</value>
-  </data>
-  <data name="PasswordDoNotMatch" xml:space="preserve">
-    <value>Os parametros não são iguais.</value>
-  </data>
-  <data name="UserNotFound" xml:space="preserve">
-    <value>Usuário não encontrado.</value>
+  <data name="ResetPasswordEmailBody" xml:space="preserve">
+    <value>Redefinir o corpo do email de senha</value>
   </data>
 </root>
